@@ -14,7 +14,7 @@ public class ConnectionScratch
 		try
 		{
 			Class.forName(driver);
-			conexion=DriverManager.getConnection("jdbc:mysql://localhost:3306/proyecto22025","root","B8000ftq");
+			conexion=DriverManager.getConnection("jdbc:mysql://localhost:3305/","root","B8000ftq");
 		}
 		catch(SQLException e)
 		{
